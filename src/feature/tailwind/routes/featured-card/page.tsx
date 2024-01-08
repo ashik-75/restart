@@ -1,12 +1,11 @@
-import BlurImage from "@/components/blur-image";
 import { Rocket } from "lucide-react";
 import React from "react";
 
-const Page = () => {
+const Page: React.FC = () => {
   return (
     <div className="space-y-5 p-6">
       <div className="max-w-md rounded-3xl border p-4 dark:border-zinc-600">
-        <BlurImage url="/image/four.jpg" />
+        <img src="/image/four.jpg" alt="" />
         <div className="pt-4">
           <h1 className="font-inter text-xl font-bold text-zinc-700 dark:text-zinc-400">
             San fransisco LA office
@@ -18,7 +17,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="space-y-2 rounded-3xl border p-5 md:max-w-sm dark:border-zinc-600">
+      <div className="space-y-2 rounded-3xl border p-5 dark:border-zinc-600 md:max-w-sm">
         <div className="flex items-center gap-2">
           <Rocket />
           <h1 className="bg-gradient-to-r from-cyan-500 to-emerald-500 bg-clip-text text-xl font-black text-transparent">
