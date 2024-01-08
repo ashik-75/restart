@@ -4,7 +4,7 @@ import TestimonalCarousel from "./feature/tailwind/routes/testimonial-carousel/p
 
 function App() {
   return (
-    <div className=" h-full">
+    <div className="h-full dark:bg-slate-950">
       <Navbar />
 
       <Routes>
